@@ -455,13 +455,13 @@ exports.shareNews = async (req, res) => {
         <meta property="og:image" content="${article.thumbnail.toString(
           "utf8"
         )}" />
-        <meta property="og:url" content="https://news.wesolutize.com/article/${id}" />
+        <meta property="og:url" content="https://spardhamanthan.com/article/${id}" />
         <meta name="robots" content="noindex" />
       </head>
       <body>
         <script>
           // Auto-redirect user to real article page
-          window.location.href = "https://news.wesolutize.com/article/${id}";
+          window.location.href = "https://spardhamanthan.com/article/${id}";
         </script>
       </body>
     </html>
